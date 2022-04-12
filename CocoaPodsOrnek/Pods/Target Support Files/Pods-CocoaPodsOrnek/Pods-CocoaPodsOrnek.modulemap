@@ -1,0 +1,6 @@
+framework module Pods_CocoaPodsOrnek {
+  umbrella header "Pods-CocoaPodsOrnek-umbrella.h"
+
+  export *
+  module * { export * }
+}
