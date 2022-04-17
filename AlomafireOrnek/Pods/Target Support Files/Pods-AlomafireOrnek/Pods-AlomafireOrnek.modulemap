@@ -1,0 +1,6 @@
+framework module Pods_AlomafireOrnek {
+  umbrella header "Pods-AlomafireOrnek-umbrella.h"
+
+  export *
+  module * { export * }
+}
