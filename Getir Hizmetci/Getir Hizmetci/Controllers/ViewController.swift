@@ -21,6 +21,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell",for: indexPath)
         cell.textLabel?.text = hizmetciler[indexPath.row]
         return cell
+        
     }
 
 
