@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tEc-A9-9Wf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zUv-Az-oHm">
-                                <rect key="frame" x="20" y="88" width="374" height="613"/>
+                                <rect key="frame" x="20" y="44" width="374" height="657"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="ld4-zd-91R"/>
@@ -46,6 +46,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Anasayfa" id="r6o-dG-cpQ"/>
                     <connections>
+                        <outlet property="girisYapButton" destination="0TL-SI-bsn" id="C9a-uW-Ldh"/>
                         <outlet property="tableView" destination="zUv-Az-oHm" id="YyR-Ue-Vk3"/>
                     </connections>
                 </viewController>
@@ -56,37 +57,37 @@
         <!--LoginVC-->
         <scene sceneID="tz4-Md-Bje">
             <objects>
-                <viewController id="Er1-fc-cpo" customClass="Login_VC" customModule="Getir_Hizmetci" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Er1-fc-cpo" customClass="Login_VC" customModule="Getir_Hizmetci" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ncq-Ki-sw6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ehd-dO-Pvl">
-                                <rect key="frame" x="55" y="108" width="304" height="35.5"/>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ehd-dO-Pvl">
+                                <rect key="frame" x="55" y="94" width="304" height="35.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Soyad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k2C-b5-5fM">
-                                <rect key="frame" x="55" y="193.5" width="304" height="35.5"/>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Soyad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k2C-b5-5fM">
+                                <rect key="frame" x="55" y="179.5" width="304" height="35.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hizmet Konusu" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5MC-4D-kEB">
-                                <rect key="frame" x="55" y="279" width="304" height="35.5"/>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hizmet Konusu" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5MC-4D-kEB">
+                                <rect key="frame" x="55" y="265" width="304" height="35.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-posta" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZCn-bH-deQ">
-                                <rect key="frame" x="55" y="364.5" width="304" height="35.5"/>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-posta" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZCn-bH-deQ">
+                                <rect key="frame" x="55" y="350.5" width="304" height="35.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Şifre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xvh-P1-cqn">
-                                <rect key="frame" x="55" y="450" width="304" height="35.5"/>
+                                <rect key="frame" x="55" y="436" width="304" height="35.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zN-Pa-Hkg">
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zN-Pa-Hkg">
                                 <rect key="frame" x="55" y="505.5" width="304" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Giriş Yap"/>
@@ -99,26 +100,24 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="5MC-4D-kEB" firstAttribute="leading" secondItem="k2C-b5-5fM" secondAttribute="leading" id="1bm-pT-Hvm"/>
+                            <constraint firstItem="1zN-Pa-Hkg" firstAttribute="trailing" secondItem="xvh-P1-cqn" secondAttribute="trailing" id="3rm-3n-d1o"/>
                             <constraint firstItem="ZCn-bH-deQ" firstAttribute="trailing" secondItem="5MC-4D-kEB" secondAttribute="trailing" id="BZe-NH-H4D"/>
                             <constraint firstItem="xvh-P1-cqn" firstAttribute="leading" secondItem="ZCn-bH-deQ" secondAttribute="leading" id="DK2-ms-cBb"/>
                             <constraint firstItem="YIL-8f-D02" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="1zN-Pa-Hkg" secondAttribute="bottom" constant="325.5" id="DeP-tO-4yn"/>
-                            <constraint firstItem="1zN-Pa-Hkg" firstAttribute="leading" secondItem="k2C-b5-5fM" secondAttribute="leading" id="H6J-sr-cg7"/>
-                            <constraint firstItem="5MC-4D-kEB" firstAttribute="leading" secondItem="1zN-Pa-Hkg" secondAttribute="leading" id="L0s-o8-2xh"/>
                             <constraint firstItem="k2C-b5-5fM" firstAttribute="trailing" secondItem="ehd-dO-Pvl" secondAttribute="trailing" id="MSM-ib-LNn"/>
+                            <constraint firstItem="1zN-Pa-Hkg" firstAttribute="top" secondItem="xvh-P1-cqn" secondAttribute="bottom" constant="34" id="MsX-He-HFZ"/>
                             <constraint firstItem="k2C-b5-5fM" firstAttribute="leading" secondItem="ehd-dO-Pvl" secondAttribute="leading" id="PcI-oe-6aG"/>
                             <constraint firstItem="5MC-4D-kEB" firstAttribute="top" secondItem="k2C-b5-5fM" secondAttribute="bottom" constant="50" id="TJT-gh-P30"/>
                             <constraint firstItem="5MC-4D-kEB" firstAttribute="trailing" secondItem="k2C-b5-5fM" secondAttribute="trailing" id="Uqr-SN-xAB"/>
                             <constraint firstItem="xvh-P1-cqn" firstAttribute="trailing" secondItem="ZCn-bH-deQ" secondAttribute="trailing" id="ajx-By-CCW"/>
                             <constraint firstItem="xvh-P1-cqn" firstAttribute="top" secondItem="ZCn-bH-deQ" secondAttribute="bottom" constant="50" id="bVN-Fx-bzg"/>
                             <constraint firstItem="k2C-b5-5fM" firstAttribute="top" secondItem="ehd-dO-Pvl" secondAttribute="bottom" constant="50" id="dJ2-kZ-dVq"/>
-                            <constraint firstItem="5MC-4D-kEB" firstAttribute="trailing" secondItem="1zN-Pa-Hkg" secondAttribute="trailing" id="hFc-3a-1dm"/>
+                            <constraint firstItem="1zN-Pa-Hkg" firstAttribute="leading" secondItem="xvh-P1-cqn" secondAttribute="leading" id="du5-ro-tY6"/>
                             <constraint firstItem="ZCn-bH-deQ" firstAttribute="leading" secondItem="5MC-4D-kEB" secondAttribute="leading" id="mj0-9a-RwE"/>
-                            <constraint firstItem="ehd-dO-Pvl" firstAttribute="top" secondItem="YIL-8f-D02" secondAttribute="top" constant="20" id="rO3-bg-6TR"/>
+                            <constraint firstItem="ehd-dO-Pvl" firstAttribute="top" secondItem="YIL-8f-D02" secondAttribute="top" constant="50" id="rO3-bg-6TR"/>
                             <constraint firstItem="YIL-8f-D02" firstAttribute="trailing" secondItem="ehd-dO-Pvl" secondAttribute="trailing" constant="55" id="sZQ-3r-dyD"/>
-                            <constraint firstItem="1zN-Pa-Hkg" firstAttribute="top" secondItem="xvh-P1-cqn" secondAttribute="bottom" constant="20" id="skn-aE-Z3R"/>
                             <constraint firstItem="ZCn-bH-deQ" firstAttribute="top" secondItem="5MC-4D-kEB" secondAttribute="bottom" constant="50" id="y66-JB-hG9"/>
                             <constraint firstItem="ehd-dO-Pvl" firstAttribute="leading" secondItem="YIL-8f-D02" secondAttribute="leading" constant="55" id="yGt-7q-2Df"/>
-                            <constraint firstItem="1zN-Pa-Hkg" firstAttribute="trailing" secondItem="k2C-b5-5fM" secondAttribute="trailing" id="yqu-lK-XeJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VFb-w0-NdA"/>
@@ -133,24 +132,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5uq-js-g5p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1944.9275362318842" y="123.88392857142857"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="j4d-aV-MTS">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tEc-A9-9Wf" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ai1-gm-oXQ">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QHm-Km-faP"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xKL-f4-4ur" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="121.73913043478262" y="123.88392857142857"/>
         </scene>
     </scenes>
     <resources>

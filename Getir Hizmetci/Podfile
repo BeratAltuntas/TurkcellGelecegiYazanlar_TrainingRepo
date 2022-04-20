@@ -7,6 +7,6 @@ target 'Getir Hizmetci' do
 
   # Pods for Getir Hizmetci
   pod 'Firebase/Auth'
-  pod 'Firebase/Firestore'
+  pod 'Firebase/Database'
 
 end

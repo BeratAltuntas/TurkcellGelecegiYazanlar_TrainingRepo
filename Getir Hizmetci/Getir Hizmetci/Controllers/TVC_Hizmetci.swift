@@ -8,7 +8,6 @@
 import UIKit
 
 class TVC_Hizmetci: UITableViewCell {
-
     @IBOutlet weak var labelName: UILabel!
     @IBOutlet weak var labelHizmet: UILabel!
     override func awakeFromNib() {
