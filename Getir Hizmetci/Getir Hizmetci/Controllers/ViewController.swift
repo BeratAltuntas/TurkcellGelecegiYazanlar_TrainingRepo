@@ -55,7 +55,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         let soyad = hizmetciler?[indexPath.row].soyad ?? ""
         let hizmet = hizmetciler?[indexPath.row].hizmet ?? ""
         
-        let cell = Bundle.main.loadNibNamed("TVC_Hizmetci", owner: self)as! TVC_Hizmetci
+        let cell = Bundle.main.loadNibNamed("TVC_Hizmetci", owner: self)?.first as! TVC_Hizmetci
         cell.labelName?.text = ad + soyad
         cell.labelHizmet.text = hizmet
         return cell

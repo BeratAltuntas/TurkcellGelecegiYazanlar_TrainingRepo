@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		726005A8A4159BD21DD5871F /* Pods_Getir_Hizmetci.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D572996B6EDB652EDF30A8A /* Pods_Getir_Hizmetci.framework */; };
-		F42D707028103C420024DD43 /* TVC_Hizmetci.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D706E28103C420024DD43 /* TVC_Hizmetci.swift */; };
-		F42D707128103C420024DD43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D706D28103C420024DD43 /* User.swift */; };
-		F42D707228103C420024DD43 /* Login_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D706F28103C420024DD43 /* Login_VC.swift */; };
 		F432CC75280FFBE500288C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432CC74280FFBE500288C14 /* AppDelegate.swift */; };
 		F432CC77280FFBE500288C14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432CC76280FFBE500288C14 /* SceneDelegate.swift */; };
 		F432CC79280FFBE500288C14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432CC78280FFBE500288C14 /* ViewController.swift */; };
@@ -18,19 +15,16 @@
 		F432CC7E280FFBE600288C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F432CC7D280FFBE600288C14 /* Assets.xcassets */; };
 		F432CC81280FFBE600288C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F432CC7F280FFBE600288C14 /* LaunchScreen.storyboard */; };
 		F432CC89280FFD6900288C14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F432CC88280FFD6900288C14 /* GoogleService-Info.plist */; };
-		F432CC8E281004D700288C14 /* TVC_Hizmetci.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432CC8D281004D700288C14 /* TVC_Hizmetci.swift */; };
-		F432CC912810095500288C14 /* Login_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432CC902810095500288C14 /* Login_VC.swift */; };
-		F432CC9328102EFF00288C14 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432CC9228102EFF00288C14 /* User.swift */; };
+		F49CAAF528103DFE000B4EB3 /* TVC_Hizmetci.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49CAAF128103DFE000B4EB3 /* TVC_Hizmetci.swift */; };
+		F49CAAF628103DFE000B4EB3 /* TVC_Hizmetci.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49CAAF228103DFE000B4EB3 /* TVC_Hizmetci.xib */; };
+		F49CAAF728103DFE000B4EB3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49CAAF328103DFE000B4EB3 /* User.swift */; };
+		F49CAAF828103DFE000B4EB3 /* Login_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49CAAF428103DFE000B4EB3 /* Login_VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00627EFDD2D6763878B71C49 /* Pods-Getir Hizmetci.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Getir Hizmetci.debug.xcconfig"; path = "Target Support Files/Pods-Getir Hizmetci/Pods-Getir Hizmetci.debug.xcconfig"; sourceTree = "<group>"; };
 		3D572996B6EDB652EDF30A8A /* Pods_Getir_Hizmetci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Getir_Hizmetci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		786D7C204FDE5233C6A8F13F /* Pods-Getir Hizmetci.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Getir Hizmetci.release.xcconfig"; path = "Target Support Files/Pods-Getir Hizmetci/Pods-Getir Hizmetci.release.xcconfig"; sourceTree = "<group>"; };
-		F42D706C28103C420024DD43 /* TVC_Hizmetci.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TVC_Hizmetci.xib; path = "/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarları/Getir Hizmetci/Getir Hizmetci/Controllers/TVC_Hizmetci.xib"; sourceTree = "<absolute>"; };
-		F42D706D28103C420024DD43 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = "/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarları/Getir Hizmetci/Getir Hizmetci/Controllers/User.swift"; sourceTree = "<absolute>"; };
-		F42D706E28103C420024DD43 /* TVC_Hizmetci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TVC_Hizmetci.swift; path = "/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarları/Getir Hizmetci/Getir Hizmetci/Controllers/TVC_Hizmetci.swift"; sourceTree = "<absolute>"; };
-		F42D706F28103C420024DD43 /* Login_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Login_VC.swift; path = "/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarları/Getir Hizmetci/Getir Hizmetci/Controllers/Login_VC.swift"; sourceTree = "<absolute>"; };
 		F432CC71280FFBE500288C14 /* Getir Hizmetci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Getir Hizmetci.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F432CC74280FFBE500288C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F432CC76280FFBE500288C14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,10 +34,10 @@
 		F432CC80280FFBE600288C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F432CC82280FFBE600288C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F432CC88280FFD6900288C14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F432CC8D281004D700288C14 /* TVC_Hizmetci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TVC_Hizmetci.swift; path = "/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarları/Getir Hizmetci/Getir Hizmetci/Controllers/TVC_Hizmetci.swift"; sourceTree = "<absolute>"; };
-		F432CC8F281004D900288C14 /* TVC_Hizmetci.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TVC_Hizmetci.xib; path = "/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarları/Getir Hizmetci/Getir Hizmetci/Controllers/TVC_Hizmetci.xib"; sourceTree = "<absolute>"; };
-		F432CC902810095500288C14 /* Login_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Login_VC.swift; path = "/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarları/Getir Hizmetci/Getir Hizmetci/Controllers/Login_VC.swift"; sourceTree = "<absolute>"; };
-		F432CC9228102EFF00288C14 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = "/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarları/Getir Hizmetci/Getir Hizmetci/Controllers/User.swift"; sourceTree = "<absolute>"; };
+		F49CAAF128103DFE000B4EB3 /* TVC_Hizmetci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC_Hizmetci.swift; sourceTree = "<group>"; };
+		F49CAAF228103DFE000B4EB3 /* TVC_Hizmetci.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TVC_Hizmetci.xib; sourceTree = "<group>"; };
+		F49CAAF328103DFE000B4EB3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F49CAAF428103DFE000B4EB3 /* Login_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login_VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,14 +102,10 @@
 		F432CC8A280FFFE400288C14 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F432CC8D281004D700288C14 /* TVC_Hizmetci.swift */,
-				F42D706F28103C420024DD43 /* Login_VC.swift */,
-				F432CC9228102EFF00288C14 /* User.swift */,
-				F42D706D28103C420024DD43 /* User.swift */,
-				F42D706E28103C420024DD43 /* TVC_Hizmetci.swift */,
-				F432CC8F281004D900288C14 /* TVC_Hizmetci.xib */,
-				F432CC902810095500288C14 /* Login_VC.swift */,
-				F42D706C28103C420024DD43 /* TVC_Hizmetci.xib */,
+				F49CAAF428103DFE000B4EB3 /* Login_VC.swift */,
+				F49CAAF128103DFE000B4EB3 /* TVC_Hizmetci.swift */,
+				F49CAAF228103DFE000B4EB3 /* TVC_Hizmetci.xib */,
+				F49CAAF328103DFE000B4EB3 /* User.swift */,
 				F432CC78280FFBE500288C14 /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -204,6 +194,7 @@
 				F432CC81280FFBE600288C14 /* LaunchScreen.storyboard in Resources */,
 				F432CC89280FFD6900288C14 /* GoogleService-Info.plist in Resources */,
 				F432CC7E280FFBE600288C14 /* Assets.xcassets in Resources */,
+				F49CAAF628103DFE000B4EB3 /* TVC_Hizmetci.xib in Resources */,
 				F432CC7C280FFBE500288C14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,13 +250,10 @@
 			files = (
 				F432CC79280FFBE500288C14 /* ViewController.swift in Sources */,
 				F432CC75280FFBE500288C14 /* AppDelegate.swift in Sources */,
-				F432CC9328102EFF00288C14 /* User.swift in Sources */,
-				F432CC8E281004D700288C14 /* TVC_Hizmetci.swift in Sources */,
-				F42D707128103C420024DD43 /* User.swift in Sources */,
-				F42D707228103C420024DD43 /* Login_VC.swift in Sources */,
-				F42D707028103C420024DD43 /* TVC_Hizmetci.swift in Sources */,
+				F49CAAF828103DFE000B4EB3 /* Login_VC.swift in Sources */,
+				F49CAAF528103DFE000B4EB3 /* TVC_Hizmetci.swift in Sources */,
+				F49CAAF728103DFE000B4EB3 /* User.swift in Sources */,
 				F432CC77280FFBE500288C14 /* SceneDelegate.swift in Sources */,
-				F432CC912810095500288C14 /* Login_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
