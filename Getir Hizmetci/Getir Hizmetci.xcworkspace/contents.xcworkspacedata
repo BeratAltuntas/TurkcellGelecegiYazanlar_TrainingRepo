@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarlar&#x131;/Getir Hizmetci/Getir Hizmetci/Controllers/Login_VC.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarlar&#x131;/Getir Hizmetci/Getir Hizmetci/Controllers/TVC_Hizmetci.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarlar&#x131;/Getir Hizmetci/Getir Hizmetci/Controllers/TVC_Hizmetci.xib">
+   </FileRef>
+   <FileRef
+      location = "group:Getir Hizmetci.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

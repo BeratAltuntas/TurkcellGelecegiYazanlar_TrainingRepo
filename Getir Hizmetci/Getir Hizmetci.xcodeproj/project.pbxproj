@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		726005A8A4159BD21DD5871F /* Pods_Getir_Hizmetci.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D572996B6EDB652EDF30A8A /* Pods_Getir_Hizmetci.framework */; };
+		F432CC75280FFBE500288C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432CC74280FFBE500288C14 /* AppDelegate.swift */; };
+		F432CC77280FFBE500288C14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432CC76280FFBE500288C14 /* SceneDelegate.swift */; };
+		F432CC79280FFBE500288C14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432CC78280FFBE500288C14 /* ViewController.swift */; };
+		F432CC7C280FFBE500288C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F432CC7A280FFBE500288C14 /* Main.storyboard */; };
+		F432CC7E280FFBE600288C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F432CC7D280FFBE600288C14 /* Assets.xcassets */; };
+		F432CC81280FFBE600288C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F432CC7F280FFBE600288C14 /* LaunchScreen.storyboard */; };
+		F432CC89280FFD6900288C14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F432CC88280FFD6900288C14 /* GoogleService-Info.plist */; };
+		F432CC8E281004D700288C14 /* TVC_Hizmetci.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432CC8D281004D700288C14 /* TVC_Hizmetci.swift */; };
+		F432CC912810095500288C14 /* Login_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432CC902810095500288C14 /* Login_VC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00627EFDD2D6763878B71C49 /* Pods-Getir Hizmetci.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Getir Hizmetci.debug.xcconfig"; path = "Target Support Files/Pods-Getir Hizmetci/Pods-Getir Hizmetci.debug.xcconfig"; sourceTree = "<group>"; };
+		3D572996B6EDB652EDF30A8A /* Pods_Getir_Hizmetci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Getir_Hizmetci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		786D7C204FDE5233C6A8F13F /* Pods-Getir Hizmetci.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Getir Hizmetci.release.xcconfig"; path = "Target Support Files/Pods-Getir Hizmetci/Pods-Getir Hizmetci.release.xcconfig"; sourceTree = "<group>"; };
+		F432CC71280FFBE500288C14 /* Getir Hizmetci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Getir Hizmetci.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F432CC74280FFBE500288C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F432CC76280FFBE500288C14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F432CC78280FFBE500288C14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F432CC7B280FFBE500288C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F432CC7D280FFBE600288C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F432CC80280FFBE600288C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F432CC82280FFBE600288C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F432CC88280FFD6900288C14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F432CC8D281004D700288C14 /* TVC_Hizmetci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TVC_Hizmetci.swift; path = "/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarları/Getir Hizmetci/Getir Hizmetci/Controllers/TVC_Hizmetci.swift"; sourceTree = "<absolute>"; };
+		F432CC8F281004D900288C14 /* TVC_Hizmetci.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TVC_Hizmetci.xib; path = "/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarları/Getir Hizmetci/Getir Hizmetci/Controllers/TVC_Hizmetci.xib"; sourceTree = "<absolute>"; };
+		F432CC902810095500288C14 /* Login_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Login_VC.swift; path = "/Users/Berat/Projects/Swift/Turkcell Gelecegin Yazarları/Getir Hizmetci/Getir Hizmetci/Controllers/Login_VC.swift"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F432CC6E280FFBE500288C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726005A8A4159BD21DD5871F /* Pods_Getir_Hizmetci.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0696FCF77FB610BD6D0D6185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D572996B6EDB652EDF30A8A /* Pods_Getir_Hizmetci.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA2B67E301EE888114EEBB3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00627EFDD2D6763878B71C49 /* Pods-Getir Hizmetci.debug.xcconfig */,
+				786D7C204FDE5233C6A8F13F /* Pods-Getir Hizmetci.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F432CC68280FFBE500288C14 = {
+			isa = PBXGroup;
+			children = (
+				F432CC73280FFBE500288C14 /* Getir Hizmetci */,
+				F432CC72280FFBE500288C14 /* Products */,
+				BA2B67E301EE888114EEBB3A /* Pods */,
+				0696FCF77FB610BD6D0D6185 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F432CC72280FFBE500288C14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F432CC71280FFBE500288C14 /* Getir Hizmetci.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F432CC73280FFBE500288C14 /* Getir Hizmetci */ = {
+			isa = PBXGroup;
+			children = (
+				F432CC8C280FFFEF00288C14 /* Supporting Files */,
+				F432CC8B280FFFEA00288C14 /* Views */,
+				F432CC8A280FFFE400288C14 /* Controllers */,
+				F432CC82280FFBE600288C14 /* Info.plist */,
+				F432CC88280FFD6900288C14 /* GoogleService-Info.plist */,
+			);
+			path = "Getir Hizmetci";
+			sourceTree = "<group>";
+		};
+		F432CC8A280FFFE400288C14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F432CC8D281004D700288C14 /* TVC_Hizmetci.swift */,
+				F432CC8F281004D900288C14 /* TVC_Hizmetci.xib */,
+				F432CC902810095500288C14 /* Login_VC.swift */,
+				F432CC78280FFBE500288C14 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F432CC8B280FFFEA00288C14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F432CC7F280FFBE600288C14 /* LaunchScreen.storyboard */,
+				F432CC7A280FFBE500288C14 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F432CC8C280FFFEF00288C14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F432CC74280FFBE500288C14 /* AppDelegate.swift */,
+				F432CC7D280FFBE600288C14 /* Assets.xcassets */,
+				F432CC76280FFBE500288C14 /* SceneDelegate.swift */,
+			);
+			name = "Supporting Files";
+			path = "Supporting Fİles";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F432CC70280FFBE500288C14 /* Getir Hizmetci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F432CC85280FFBE600288C14 /* Build configuration list for PBXNativeTarget "Getir Hizmetci" */;
+			buildPhases = (
+				B6D90C379CD9221C51042EC6 /* [CP] Check Pods Manifest.lock */,
+				F432CC6D280FFBE500288C14 /* Sources */,
+				F432CC6E280FFBE500288C14 /* Frameworks */,
+				F432CC6F280FFBE500288C14 /* Resources */,
+				D380F728574534771E9A0D91 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Getir Hizmetci";
+			productName = "Getir Hizmetci";
+			productReference = F432CC71280FFBE500288C14 /* Getir Hizmetci.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F432CC69280FFBE500288C14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F432CC70280FFBE500288C14 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F432CC6C280FFBE500288C14 /* Build configuration list for PBXProject "Getir Hizmetci" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F432CC68280FFBE500288C14;
+			productRefGroup = F432CC72280FFBE500288C14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F432CC70280FFBE500288C14 /* Getir Hizmetci */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F432CC6F280FFBE500288C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F432CC81280FFBE600288C14 /* LaunchScreen.storyboard in Resources */,
+				F432CC89280FFD6900288C14 /* GoogleService-Info.plist in Resources */,
+				F432CC7E280FFBE600288C14 /* Assets.xcassets in Resources */,
+				F432CC7C280FFBE500288C14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6D90C379CD9221C51042EC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Getir Hizmetci-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D380F728574534771E9A0D91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Getir Hizmetci/Pods-Getir Hizmetci-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Getir Hizmetci/Pods-Getir Hizmetci-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Getir Hizmetci/Pods-Getir Hizmetci-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F432CC6D280FFBE500288C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F432CC79280FFBE500288C14 /* ViewController.swift in Sources */,
+				F432CC75280FFBE500288C14 /* AppDelegate.swift in Sources */,
+				F432CC8E281004D700288C14 /* TVC_Hizmetci.swift in Sources */,
+				F432CC77280FFBE500288C14 /* SceneDelegate.swift in Sources */,
+				F432CC912810095500288C14 /* Login_VC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F432CC7A280FFBE500288C14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F432CC7B280FFBE500288C14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F432CC7F280FFBE600288C14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F432CC80280FFBE600288C14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F432CC83280FFBE600288C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F432CC84280FFBE600288C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F432CC86280FFBE600288C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00627EFDD2D6763878B71C49 /* Pods-Getir Hizmetci.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F2Y7B7Z54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Getir Hizmetci/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TurkcellGeleceginYazarlari.Getir-Hizmetci";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F432CC87280FFBE600288C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786D7C204FDE5233C6A8F13F /* Pods-Getir Hizmetci.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F2Y7B7Z54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Getir Hizmetci/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TurkcellGeleceginYazarlari.Getir-Hizmetci";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F432CC6C280FFBE500288C14 /* Build configuration list for PBXProject "Getir Hizmetci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F432CC83280FFBE600288C14 /* Debug */,
+				F432CC84280FFBE600288C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F432CC85280FFBE600288C14 /* Build configuration list for PBXNativeTarget "Getir Hizmetci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F432CC86280FFBE600288C14 /* Debug */,
+				F432CC87280FFBE600288C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F432CC69280FFBE500288C14 /* Project object */;
+}
