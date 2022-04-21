@@ -14,11 +14,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     var hizmetciler: [User]?
     override func viewDidLoad() {
         super.viewDidLoad()
-//
+
        
-//        if Auth.auth().currentUser != nil{
-//            girisYapButton.isHidden = true
-//        }
+        if Auth.auth().currentUser != nil{
+            girisYapButton.isHidden = true
+        }
         
         fetchHizmetli()
     }
