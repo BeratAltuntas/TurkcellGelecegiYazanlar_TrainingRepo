@@ -12,23 +12,33 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        write()
-        read()
+        dataWrite()
+        dataRead()
+        
+        dataUpdate()
+        dataRead()
+        
+        dataDelete()
+        dataRead()
     }
     
-    func write(){
+    func dataWrite(){
         let query = [
             kSecValueData : "Berat Altuntaş".data(using: .utf8)!, //değer
             kSecAttrAccount : "userName",//değerin değişken adı çağırırken kullanmak için
             kSecClass : kSecClassGenericPassword // şifreleme tipi
         ] as CFDictionary
         
-        SecItemAdd(query, nil)
+        let status = SecItemAdd(query, nil)
+        
+        if status == 0{
+            print("Data Added successfully. Status Code:",status)
+        }else{
+            print("Status code:",status)
+        }
     }
 
-
-
-    func read(){
+    func dataRead(){
         let query = [
             kSecAttrAccount : "userName",
             kSecClass : kSecClassGenericPassword,
@@ -37,10 +47,47 @@ class ViewController: UIViewController {
         
         var ref : AnyObject? = nil
         
-        let durum = SecItemCopyMatching(query, &ref) //şifrelenen değere ulaşma methodu, & işareti nil girip içeride doldurulacağı anlamına geliyor. Şifreli nesneyi ref in içerisine aktarıyor.
-        if durum == 0{
+        let status = SecItemCopyMatching(query, &ref) //şifrelenen değere ulaşma methodu, & işareti nil girip içeride doldurulacağı anlamına geliyor. Şifreli nesneyi ref in içerisine aktarıyor.
+        if status == 0{
             let value = String(data: ref as! Data, encoding: .utf8)
-            print(value!)
+            print("Read :",value!)
+        }else{
+            print("Status code:",status)
+        }
+    }
+    
+    func dataUpdate(){
+        let query = [
+            kSecAttrAccount : "userName",//değerin değişken adı çağırırken kullanmak için
+            kSecClass : kSecClassGenericPassword // şifreleme tipi
+        ] as CFDictionary
+        
+        let updateDataQuery = [
+            kSecValueData : "Celalettin Berat Altuntaş".data(using: .utf8)!
+        ] as CFDictionary
+        
+        let status = SecItemUpdate(query, updateDataQuery)
+        if status == 0{
+            print("Data updated successfully. Status Code:",status)
+        }else{
+            print("Status code:",status)
+        }
+       
+        
+    }
+    
+    func dataDelete(){
+        let query = [
+            kSecAttrAccount : "userName",
+            kSecClass : kSecClassGenericPassword
+        ] as CFDictionary
+        
+        let status = SecItemDelete(query)
+        
+        if status == 0{
+            print("Data Deleted successfully. Status Code:",status)
+        }else{
+            print("Status code:",status)
         }
     }
 }
