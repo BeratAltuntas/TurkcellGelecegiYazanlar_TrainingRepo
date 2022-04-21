@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Getir Hizmetci
+//  CoreLocationApp
 //
-//  Created by BERAT ALTUNTAŞ on 20.04.2022.
+//  Created by BERAT ALTUNTAŞ on 21.04.2022.
 //
 
 import UIKit
