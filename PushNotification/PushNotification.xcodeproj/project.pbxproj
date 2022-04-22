@@ -54,12 +54,12 @@
 		F4E2627A2812F49A00B01D23 /* PushNotification */ = {
 			isa = PBXGroup;
 			children = (
+				F4E262892812F49E00B01D23 /* Info.plist */,
+				F4E2627F2812F49A00B01D23 /* ViewController.swift */,
 				F4E2627B2812F49A00B01D23 /* AppDelegate.swift */,
 				F4E2627D2812F49A00B01D23 /* SceneDelegate.swift */,
-				F4E2627F2812F49A00B01D23 /* ViewController.swift */,
 				F4E262812812F49A00B01D23 /* Main.storyboard */,
 				F4E262842812F49E00B01D23 /* Assets.xcassets */,
-				F4E262892812F49E00B01D23 /* Info.plist */,
 			);
 			path = PushNotification;
 			sourceTree = "<group>";

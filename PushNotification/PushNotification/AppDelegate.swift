@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
             
             ViewController.titleNotification = "bildirime Tıklandı."
             
-            
         }
         
     }
