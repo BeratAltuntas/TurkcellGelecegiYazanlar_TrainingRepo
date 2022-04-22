@@ -9,8 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let notificationIdentifier = "notificationButton"
+    var titleNotification:String?
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    override func viewWillAppear(_ animated: Bool) {
         
     }
 
@@ -22,7 +27,7 @@ class ViewController: UIViewController {
         
         let whenIsTriggering = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false) // bildirimin ne kadar zamanda bir veya ne zaman gönderileceğini ayarlıyor.
         
-        let notification = UNNotificationRequest(identifier: "notificationButton", content: notificationContent, trigger: whenIsTriggering)// yukarıda belirttiğimiz içerikte ve belirtilen sürede bir notification isteği oluşturuyor
+        let notification = UNNotificationRequest(identifier: notificationIdentifier, content: notificationContent, trigger: whenIsTriggering)// yukarıda belirttiğimiz içerikte ve belirtilen sürede bir notification isteği oluşturuyor
         
         UNUserNotificationCenter.current().add(notification)// bu method yukarıda oluşturduğumuz isteği bildirim gönderebilmesi için kayıt ediyor, ekliyor UNUserNotificationCenter'a
     }
