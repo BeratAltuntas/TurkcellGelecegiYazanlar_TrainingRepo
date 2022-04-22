@@ -11,9 +11,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDelegate {
 
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-        if response.notification.request.identifier == "notificationButton"{
+        if response.notification.request.identifier == ViewController.notificationIdentifier{
             
-            print("butona basıldı.")
+            ViewController.titleNotification = "bildirime Tıklandı."
+            
+            
         }
         
     }
@@ -28,6 +30,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
                 print("Authorization Rejected")
             }
         }
+        
+        UNUserNotificationCenter.current().delegate = self
         return true
     }
 
